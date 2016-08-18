@@ -98,7 +98,7 @@ public class GhostActivity extends ActionBarActivity {
             if(userTurn)
                 label.setText("User Win");
             else
-                label.setText("A.I. Win");
+                label.setText("Computer Win");
             add.setEnabled(false);
             ai.setEnabled(false);
         }
