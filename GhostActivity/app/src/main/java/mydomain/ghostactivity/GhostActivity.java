@@ -28,7 +28,7 @@ public class GhostActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         try {
-            dictionary = new SimpleDictionary(new BufferedInputStream(getAssets().open("words.txt")));
+            dictionary = new FastDictionary(new BufferedInputStream(getAssets().open("words.txt")));
         }catch(Exception ex){System.exit(0);}
         setContentView(R.layout.activity_ghost);
         // onStart(null);
