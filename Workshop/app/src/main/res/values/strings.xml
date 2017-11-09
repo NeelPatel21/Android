@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Workshop</string>
+    <string name="title_activity_intent_test">IntentTest</string>
+    <string name="title_activity_maps_test">Map</string>
+</resources>
